@@ -1,0 +1,118 @@
+                                         🌐 Day 3 – Forms in HTML
+🎯 Goal
+Learn how to create and style HTML forms using <form>, <input>, <label>, <textarea>, <select>, and basic validation attributes.
+
+📘 Concept Overview
+🧾 Basic Form Structure
+Code(html):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Sets the character encoding for the document. UTF-8 is a universal character set that supports almost all characters and symbols. -->
+    <meta charset="UTF-8">
+    <!-- 
+        Configures the viewport, which is crucial for responsive web design.
+        'width=device-width' sets the width of the viewport to the width of the device.
+        'initial-scale=1.0' sets the initial zoom level when the page is first loaded by the browser.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        Sets the title of the HTML document. This title appears in the browser tab, 
+        window title bar, or as the default name when the page is bookmarked.
+    -->
+    <title>Simple Contact Form</title>
+</head>
+<body>
+    <!-- 
+        Defines an HTML form, which is used to collect user input.
+        'action="/submit"': Specifies the URL where the form data will be sent when the form is submitted.
+                             In a real application, this would be a server-side endpoint.
+        'method="post"': Specifies the HTTP method used to send the form data.
+                         'POST' is typically used when submitting data that might change the server's state (e.g., creating a new record).
+                         Data sent via POST is included in the body of the HTTP request and is not visible in the URL.
+    -->
+    <form action="/submit" method="post">
+        <!-- 
+            <label> tag: Provides a caption for an item in a user interface.
+            'for="name"': Links this label to the input element that has the matching 'id="name"'.
+                           This improves accessibility, allowing users to click the label to focus on the input field.
+        -->
+        <label for="name">Name:</label>
+        <!-- 
+            <input> tag: Used to create interactive controls for web-based forms.
+            'type="text"': Specifies a single-line text input field.
+            'id="name"': A unique identifier for the input element within the document. Used by labels, JavaScript, and CSS.
+            'name="name"': The name of the form control. This name is used to reference the data when the form is submitted to the server.
+            'required': A boolean attribute that specifies that the input field must be filled out before submitting the form.
+        -->
+        <input type="text" id="name" name="name" required />
+        <br /><br /> <!-- <br> tag creates a line break, effectively moving the next element to a new line. Used here for spacing. -->
+
+        <!-- Label for the 'Email' input field. -->
+        <label for="email">Email:</label>
+        <!-- 
+            Email input field.
+            'type="email"': Specifies an input field for an email address. Browsers may provide built-in validation for email format.
+            'id="email"': Unique identifier.
+            'name="email"': Name for form submission.
+            'required': Makes the field mandatory.
+        -->
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+
+        <!-- Label for the 'Message' textarea. -->
+        <label for="message">Message:</label><br />
+        <!-- 
+            <textarea> tag: Defines a multi-line text input control.
+            'id="message"': Unique identifier.
+            'name="message"': Name for form submission.
+            'rows="4"': Specifies the visible number of lines in the text area.
+            'cols="30"': Specifies the visible width of the text area in average character widths.
+        -->
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        <br /><br />
+
+        <!-- Label for the 'Role' dropdown. -->
+        <label for="role">Role:</label>
+        <!-- 
+            <select> tag: Creates a drop-down list.
+            'id="role"': Unique identifier.
+            'name="role"': Name for form submission.
+        -->
+        <select id="role" name="role">
+            <!-- 
+                <option> tag: Defines an option in a <select> list.
+                'value="student"': The value sent to the server if this option is selected.
+            -->
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="other">Other</option>
+        </select>
+        <br /><br />
+
+        <!-- 
+            <button> tag: Defines a clickable button.
+            'type="submit"': Specifies that the button is a submit button, which submits the form data to the server.
+        -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+🧠 Key Attributes:
+Attribute	Purpose
+action	Where to send form data
+method	GET or POST
+required	Makes input mandatory
+type	Defines input type like text, email, password, etc.
+
+✅ Daily Checklist
+ Use <form>, <label>, and <input>
+
+ Add <textarea> for messages
+
+ Use <select> with multiple options
+
+ Apply required, type="email", and other validations
+
+ Optional: Add a success message with JS

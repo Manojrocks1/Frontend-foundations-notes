@@ -1,0 +1,66 @@
+                       📅 Day 1 – Frontend Foundations: HTML Structure
+🎯 Goal:
+Understand and create a valid HTML5 document with a proper structure using
+ essential tags like <!DOCTYPE>, <html>, <head>, and <body>.
+
+📘 Concept: What is HTML?
+HTML (HyperText Markup Language) is the standard language used to 
+create and structure web pages.
+->It tells the browser how to display content such as text, links, images, and more.
+
+🧱 Core HTML Structure:
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML page.</p>
+  </body>
+</html>
+🔍 Explanation of Each Part:
+Tag	                        Purpose
+<!DOCTYPE html>	Tells the browser this is an HTML5 document
+<html lang="en">	Root element, wraps all the content. lang="en" defines the language
+<head>	Contains metadata (not visible to users)
+<meta charset="UTF-8">	Defines character encoding
+<meta name="viewport">	Makes the site responsive
+<title>	Sets the title in the browser tab
+<body>	Contains all visible content (text, images, buttons, etc.)
+
+🧪 Exercise:
+Task:
+Create a file named index.html and write the basic HTML structure from scratch.
+
+Open VS Code or any code editor.
+
+Create a folder day1-html-structure/
+
+Inside, create index.html
+
+Add the full HTML boilerplate above.
+
+Open index.html in your browser by double-clicking it.
+
+🔧 Bonus Task (Optional):
+Change the title to your name: <title>Manoj’s Web Page</title>
+
+Add:
+
+html
+Copy
+Edit
+<h2>About Me</h2>
+<p>I am learning web development!</p>
+✅ Daily Checklist:
+ Learn the structure of an HTML5 page(Completed)
+Create a basic HTML page with heading and paragraph(Completed)
+Save & open your page in a browser(Completed)
+ Push to GitHub (optional)
+

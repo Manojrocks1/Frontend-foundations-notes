@@ -1,0 +1,77 @@
+🎯 Goal
+Learn to organize content using headings, navigate using hyperlinks, and
+ group items using ordered and unordered lists.
+
+📘 Concept Overview
+🏷️ 1. Headings
+HTML provides 6 levels of headings from <h1> to <h6>, where <h1> is the most important.
+
+Code(html):
+
+<h1>Main Title</h1>
+<h2>Section Heading</h2>
+<h3>Sub-section</h3>
+✅ Use only one <h1> per page for SEO and accessibility.
+
+                           🔗 2. Links (Anchor Tags)
+Used for navigation.
+
+Code(html):
+
+<a href="https://www.google.com" target="_blank">Visit Google</a>
+Attribute	Purpose
+href	The URL or path to go to
+target="_blank"	Opens link in a new tab
+
+                                           📝 3. Lists
+✅ Unordered List
+Used when order doesn’t matter (e.g., shopping list).
+
+Code(html):
+
+<ul>
+  <li>Milk</li>
+  <li>Bread</li>
+  <li>Eggs</li>
+</ul>
+🔢 Ordered List
+Used when order does matter (e.g., recipe steps).
+
+Code(html):
+
+<ol>
+  <li>Boil water</li>
+  <li>Add tea leaves</li>
+  <li>Stir and serve</li>
+</ol>
+
+🧪 Exercise
+✅ Create a new file: day2-elements.html
+Include the following sections:
+
+A title using <h1>
+
+A link to your favorite website
+
+A list of your hobbies (unordered)
+
+A list of steps to make your favorite snack (ordered)
+
+🔧 Bonus Task
+Create an internal link (anchor link) within the same page:
+
+Code(html):
+
+<a href="#contact">Jump to Contact</a>
+
+...
+
+<h2 id="contact">Contact Section</h2>
+<p>My email: you@example.com</p>
+
+✅ Daily Checklist
+ Use all 6 levels of <h1> to <h6> headings(Completed)
+ .Add external link with target="_blank"(Completed)
+ .Create a <ul> and <ol> list(Completed)
+ .Add internal page navigation (Bonus)(pending)
+ .Save as day2-elements.html and open in browser(Completed)
