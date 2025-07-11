@@ -1,0 +1,35 @@
+🎯 Goal
+Learn how to embed images, audio, and video in an HTML page using the <img>, <audio>, and <video> tags with proper attributes and fallback support.
+
+📘 Concept Overview
+🖼️ Images
+Code(html):
+
+<img src="images/sunset.jpg" alt="Sunset over hills" width="300" />
+
+Attribute	Purpose
+src	Image file path or URL
+alt	Describes image if it can’t load (for SEO + accessibility)
+width/height	Adjusts size
+
+🔊 Audio
+Code(html):
+
+<audio controls>
+  <source src="media/music.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+🎥 Video
+Code(html):
+
+<video width="320" height="240" controls>
+  <source src="media/sample.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+✅ Daily Checklist
+.Add an image using <img>
+.Add a video using <video> and use controls
+.Add audio using <audio> with a fallback message
+.Use alt text for accessibility
+.Try embedding from YouTube (Bonus)
