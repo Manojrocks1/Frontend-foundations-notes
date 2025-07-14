@@ -1,0 +1,29 @@
+🎯 Goal
+Understand and use semantic HTML5 tags to structure a web page meaningfully. Learn how to create a layout using <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>.
+
+📘 Concept Overview
+✨ What are Semantic Tags?
+Semantic tags clearly describe their meaning to both the browser and the developer.
+They improve:
+
+Accessibility
+
+SEO
+
+Readability and maintainability
+
+🧱 Common Semantic Elements
+Tag	Purpose
+<header>	Top section with logo or navigation
+<nav>	Navigation bar
+<main>	Main content area
+<section>	Groups related content
+<article>	Independent content block (like blog)
+<aside>	Sidebar or related info
+<footer>	Bottom section with copyright, links
+
+✅ Daily Checklist
+1)Create a webpage with all semantic tags
+2)Structure content using layout tags
+3)Understand the role of each section
+4)Optional: Add minimal CSS to visualize layout
